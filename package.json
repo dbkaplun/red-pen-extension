@@ -1,0 +1,38 @@
+{
+  "name": "red-pen-extension",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dbkaplun/red-pen-extension",
+  "repository": "https://github.com/dbkaplun/red-pen-extension",
+  "bugs": "https://github.com/dbkaplun/red-pen-extension/issues",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w --display-error-details --progress",
+    "start": "web-ext run -s extension/",
+    "eslint": "eslint --ext js,jsx .",
+    "test": "npm run eslint"
+  },
+  "dependencies": {
+    "prop-types": "15.6.1",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "webextension-polyfill": "0.2.1",
+    "write-good": "0.11.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.7.0",
+    "web-ext": "2.6.0",
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3"
+  },
+  "author": "Dan Kaplun <dbkaplun@gmail.com>",
+  "license": "MIT"
+}

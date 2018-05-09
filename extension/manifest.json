@@ -1,0 +1,43 @@
+{
+  "name": "__MSG_name__",
+  "version": "1.0",
+  "description": "__MSG_description__",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+
+  "icons": {
+    "16": "images/red-pen-16.png",
+    "32": "images/red-pen-32.png",
+    "48": "images/red-pen-48.png",
+    "96": "images/red-pen-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content_script.js"],
+      "css": []
+    }
+  ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "images/red-pen-16.png",
+      "32": "images/red-pen-32.png",
+      "48": "images/red-pen-48.png",
+      "96": "images/red-pen-96.png"
+    },
+    "default_title": "__MSG_name__",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["dist/background.js"]
+  },
+
+  "default_locale": "en",
+  "manifest_version": 2
+}

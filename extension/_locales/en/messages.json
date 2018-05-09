@@ -1,0 +1,12 @@
+{
+  "name": {
+    "message": "Red Pen Extension"
+  },
+  "description": {
+    "message": "Lints your writing! 📝 browser extension for Chrome"
+  },
+  "contextMenuLintThisText": {
+    "message": "Lint this text",
+    "description": "Lint the text in this element with Red Pen"
+  }
+}

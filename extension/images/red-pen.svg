@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190">
+    <defs>
+        <linearGradient id="a" x1="55" x2="115" y1="156" y2="196" gradientTransform="translate(-22.5 -26)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="red"/>
+            <stop offset="1" stop-color="#c80000"/>
+        </linearGradient>
+        <radialGradient id="b" cx="50" cy="205.65" r="32.768" gradientTransform="matrix(1.9836 -.15259 .06143 .79898 -84.315 18.322)" gradientUnits="userSpaceOnUse">
+            <stop offset="0"/>
+            <stop offset="1" stop-color="#191919"/>
+        </radialGradient>
+        <linearGradient id="c" x1="60" x2="165" y1="96" y2="96" gradientTransform="translate(-22.5 -26)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity=".098"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".196"/>
+        </linearGradient>
+    </defs>
+    <path fill="url(#a)" d="M137.5 0l35 35-80 135c-5-1-59-38-60-40z"/>
+    <path fill="url(#b)" d="M32.5 130l60 40s-20-5-40 10c-6.667 5-29.287 2.146-25-5 15-25 5-45 5-45z"/>
+    <path fill="red" d="M27.5 175l25 5-10 10h-25z"/>
+    <path fill="url(#c)" d="M137.5 5l5 5s-90 115-95 125c0 0-10 0-10-5z"/>
+</svg>
