@@ -1,4 +1,4 @@
-# ![Icon](https://raw.githubusercontent.com/dbkaplun/red-pen-extension/master/assets/red-pen.svg) Red Pen Extension [![Build Status](https://travis-ci.com/dbkaplun/red-pen-extension.svg?branch=master)](https://travis-ci.com/dbkaplun/red-pen-extension)
+# ![Icon](https://raw.githubusercontent.com/dbkaplun/red-pen-extension/master/extension/images/red-pen-48.png) Red Pen Extension [![Build Status](https://travis-ci.com/dbkaplun/red-pen-extension.svg?branch=master)](https://travis-ci.com/dbkaplun/red-pen-extension)
 
 Lints your writing! 📝 browser extension for Chrome
 
