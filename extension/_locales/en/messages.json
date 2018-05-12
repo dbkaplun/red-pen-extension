@@ -3,10 +3,10 @@
     "message": "Red Pen Extension"
   },
   "description": {
-    "message": "Lints your writing! 📝 browser extension for Chrome"
+    "message": "Open-source browser extension to style check your writing"
   },
   "contextMenuLintThisText": {
-    "message": "Lint this text",
-    "description": "Lint the text in this element with Red Pen"
+    "message": "Suggest style tweaks",
+    "description": "Check this text for style tweaks with Red Pen"
   }
 }
